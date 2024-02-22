@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.myBody{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.atf-image{
+    height: 300px;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.menu{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 24px;
+    font-weight: 800;
+    filter: drop-shadow(2px 15px 3px rgb(50, 45, 72));
+}
+
+.menu a:hover{
+    color: #e5af6f;
+} 
+
+.order-button{
+    color: black !important;
+    background-color: #e5af6f;
+    padding: 16px;
+}
+
+.order-button:hover{
+    background-color: #d98828;
+}
+
+a{
+    color: #e5af6f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #79b6ee;
+    text-decoration: underline;
+}
+
+.container_überschrift{
+    position: absolute;
+    top: 0;
+    height: 850px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lugrasimo', cursive;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.container_impressum{
+    height: 500px;
+}
+
+.container_impressum_inhalt{
+    padding-top: 100px;
+    font-family: 'Lugrasimo', cursive;
+    padding-left: 15%;
+}
+
+.footer{
+    background-color: rgba(35, 38, 41, 0.8);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.kochmütze{
+    width: 27px;
+    transform:rotate(-5deg);
+}
